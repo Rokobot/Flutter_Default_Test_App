@@ -1,0 +1,47 @@
+//MEDIUM -> https://medium.com/@alihasanov2023
+//Ternary Operator -> 
+
+
+// Ternary operatoru ilə
+class func_ternary{
+  var a;
+  var b;
+  func_1(int a,int b ){
+    a==b?print("True"):a>b? print("a>b"):print("False");
+  }
+}
+
+
+//Sadə şərt operatoru ilə 
+class func{
+  var a;
+  var b;
+  func_1(int a,int b ){
+    if(a == b){
+      print("True");
+    }
+    else if(a>b){
+      print("a>b");
+    }
+    else{
+      print("False");  
+    }
+  }
+}
+
+
+void main(){
+  //Sadə şərt operatoru ilə 
+  var class_func = new func();
+  class_func.func_1(6,4);
+  
+  // Ternary operatoru ilə
+  var class_func_ternary = new func_ternary();
+  class_func_ternary.func_1(7,9);
+}
+
+
+
+
+
+
